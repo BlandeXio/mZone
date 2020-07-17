@@ -27,16 +27,34 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "EC9527411B8043450098D609"
+            BuildableName = "mZone Poker.app"
+            BlueprintName = "mZone Poker"
+            ReferencedContainer = "container:mZone Poker.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <Testables>
          <TestableReference
-            skipped = "NO">
+            skipped = "YES"
+            useTestSelectionWhitelist = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "04A7DBDA1DCE9AF1000A395F"
+               BlueprintIdentifier = "E07C089124C025FF009AAB34"
                BuildableName = "mZone PokerUITests.xctest"
                BlueprintName = "mZone PokerUITests"
                ReferencedContainer = "container:mZone Poker.xcodeproj">
             </BuildableReference>
+            <SelectedTests>
+               <Test
+                  Identifier = "mZone_PokerUITests/testExample()">
+               </Test>
+               <Test
+                  Identifier = "mZone_PokerUITests/testLaunchPerformance()">
+               </Test>
+            </SelectedTests>
          </TestableReference>
          <TestableReference
             skipped = "NO">
@@ -49,17 +67,6 @@
             </BuildableReference>
          </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "EC9527411B8043450098D609"
-            BuildableName = "mZone Poker.app"
-            BlueprintName = "mZone Poker"
-            ReferencedContainer = "container:mZone Poker.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -81,8 +88,6 @@
             ReferencedContainer = "container:mZone Poker.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
